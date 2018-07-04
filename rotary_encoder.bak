@@ -1,0 +1,256 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PEC11R-4215F-S0024
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PEC11R-4215F-S0024 SW?
+U 1 1 5B3C75BF
+P 5400 3350
+F 0 "SW?" H 5150 3650 50  0000 L BNN
+F 1 "PEC11R-4215F-S0024" H 5150 2949 50  0000 L BNN
+F 2 "SW_PEC11R-4215F-S0024" H 5400 3350 50  0001 L BNN
+F 3 "Good" H 5400 3350 50  0001 L BNN
+F 4 "PEC11R-4215F-S0024" H 5400 3350 50  0001 L BNN "MP"
+F 5 "None" H 5400 3350 50  0001 L BNN "Package"
+F 6 "Bourns" H 5400 3350 50  0001 L BNN "MF"
+F 7 "1.13 USD" H 5400 3350 50  0001 L BNN "Price"
+F 8 "Incremental Encoder, 12 Mm, Contact Rating 10 Ma - 5 Vdc" H 5400 3350 50  0001 L BNN "Description"
+	1    5400 3350
+	-1   0    0    1   
+$EndComp
+Text GLabel 5850 3200 2    60   Input ~ 0
+rotary_A
+Text GLabel 5850 3100 2    60   Input ~ 0
+rotary_B
+$Comp
+L C C?
+U 1 1 5B3C7E33
+P 5400 4000
+F 0 "C?" H 5425 4100 50  0000 L CNN
+F 1 "100nF" H 5425 3900 50  0000 L CNN
+F 2 "" H 5438 3850 50  0001 C CNN
+F 3 "" H 5400 4000 50  0001 C CNN
+	1    5400 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5B3C80E5
+P 8100 3250
+F 0 "#PWR?" H 8100 3100 50  0001 C CNN
+F 1 "VCC" H 8100 3400 50  0000 C CNN
+F 2 "" H 8100 3250 50  0001 C CNN
+F 3 "" H 8100 3250 50  0001 C CNN
+	1    8100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B3C80EB
+P 8800 3900
+F 0 "C?" H 8825 4000 50  0000 L CNN
+F 1 "10nF" H 8825 3800 50  0000 L CNN
+F 2 "" H 8838 3750 50  0001 C CNN
+F 3 "" H 8800 3900 50  0001 C CNN
+	1    8800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B3C80F7
+P 8800 4050
+F 0 "#PWR?" H 8800 3800 50  0001 C CNN
+F 1 "GND" H 8800 3900 50  0000 C CNN
+F 2 "" H 8800 4050 50  0001 C CNN
+F 3 "" H 8800 4050 50  0001 C CNN
+	1    8800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3C80FD
+P 8300 3450
+F 0 "R?" V 8380 3450 50  0000 C CNN
+F 1 "10k" V 8300 3450 50  0000 C CNN
+F 2 "" V 8230 3450 50  0001 C CNN
+F 3 "" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3C8104
+P 8450 3750
+F 0 "R?" V 8530 3750 50  0000 C CNN
+F 1 "10k" V 8450 3750 50  0000 C CNN
+F 2 "" V 8380 3750 50  0001 C CNN
+F 3 "" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	0    1    1    0   
+$EndComp
+Text GLabel 9100 3750 2    60   Input ~ 0
+B
+Text GLabel 8300 4000 3    60   Input ~ 0
+rotary_B
+$Comp
+L VCC #PWR?
+U 1 1 5B3C8498
+P 6500 3350
+F 0 "#PWR?" H 6500 3200 50  0001 C CNN
+F 1 "VCC" H 6500 3500 50  0000 C CNN
+F 2 "" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0001 C CNN
+	1    6500 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5B3C849E
+P 7400 3900
+F 0 "C?" H 7425 4000 50  0000 L CNN
+F 1 "10nF" H 7425 3800 50  0000 L CNN
+F 2 "" H 7438 3750 50  0001 C CNN
+F 3 "" H 7400 3900 50  0001 C CNN
+	1    7400 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B3C84A4
+P 7400 4050
+F 0 "#PWR?" H 7400 3800 50  0001 C CNN
+F 1 "GND" H 7400 3900 50  0000 C CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3C84AA
+P 7900 3450
+F 0 "R?" V 7980 3450 50  0000 C CNN
+F 1 "10k" V 7900 3450 50  0000 C CNN
+F 2 "" V 7830 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3C84B0
+P 7750 3750
+F 0 "R?" V 7830 3750 50  0000 C CNN
+F 1 "10k" V 7750 3750 50  0000 C CNN
+F 2 "" V 7680 3750 50  0001 C CNN
+F 3 "" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	0    -1   1    0   
+$EndComp
+Text GLabel 7100 3750 0    60   Input ~ 0
+A
+Text GLabel 7900 4000 3    60   Input ~ 0
+rotary_A
+$Comp
+L GND #PWR?
+U 1 1 5B3C8C0A
+P 4600 4200
+F 0 "#PWR?" H 4600 3950 50  0001 C CNN
+F 1 "GND" H 4600 4050 50  0000 C CNN
+F 2 "" H 4600 4200 50  0001 C CNN
+F 3 "" H 4600 4200 50  0001 C CNN
+	1    4600 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3C8CCC
+P 4750 4000
+F 0 "R?" V 4830 4000 50  0000 C CNN
+F 1 "10k" V 4750 4000 50  0000 C CNN
+F 2 "" V 4680 4000 50  0001 C CNN
+F 3 "" H 4750 4000 50  0001 C CNN
+	1    4750 4000
+	0    -1   1    0   
+$EndComp
+Text GLabel 4950 4200 3    60   Input ~ 0
+Button
+Wire Wire Line
+	5850 4000 5550 4000
+Wire Wire Line
+	5850 3350 5850 4000
+Wire Wire Line
+	8600 3750 9100 3750
+Wire Wire Line
+	8300 3600 8300 4000
+Connection ~ 8300 3750
+Connection ~ 8800 3750
+Wire Wire Line
+	7100 3750 7600 3750
+Wire Wire Line
+	7900 3600 7900 4000
+Connection ~ 7900 3750
+Connection ~ 7400 3750
+Wire Wire Line
+	7900 3300 8300 3300
+Wire Wire Line
+	8100 3300 8100 3250
+Connection ~ 8100 3300
+Wire Wire Line
+	4600 3150 4950 3150
+Wire Wire Line
+	4900 4000 5250 4000
+Wire Wire Line
+	4950 3350 4950 4200
+Connection ~ 4950 4000
+Wire Wire Line
+	4600 3150 4600 4200
+Connection ~ 4600 4000
+Wire Wire Line
+	6500 3350 5850 3350
+Connection ~ 5850 3350
+$EndSCHEMATC
